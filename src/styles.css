@@ -1,0 +1,99 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.FormBlock {
+    background-color: #fff;
+    width: 456px;
+    padding: 105px 48px;
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+label {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    display: grid;
+    gap: 8px;
+}
+
+label>input {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    background-color: #F2F2F2;
+
+    border: 1px solid #E5E5E5;
+    border-radius: 6px;
+
+    padding: 14px 16px;
+
+    /* margin-bottom: 18px; */
+}
+
+#submitBtn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+    background-color: #007AFF;
+    color: #FFF;
+    border: none;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+#submitBtn:hover {
+    -webkit-box-shadow: 1px 1px 20px 10px #007bff6d;
+}
+
+.navigation {
+    margin-top: 32px;
+    border-top: 1px solid #E5E5E5;
+    padding-top: 24px;
+
+    text-align: center;
+    font-size: 12px;
+
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.navigation>a,
+.passwordLink>a {
+    color: #007AFF;
+    text-decoration: none;
+}
+
+.passwordLink {
+    text-align: right;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
